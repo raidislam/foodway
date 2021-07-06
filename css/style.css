@@ -1,3 +1,55 @@
-h1 {
-    color: red;
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+.common-text {
+    line-height: 1.5;
+}
+
+.hero-special-text {
+    color: #1b1be7d0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(to left, #1010e6, rgb(162, 47, 255));
+    display: inline-block;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+.hero {
+    padding: 40px 0 60px;
+}
+
+.hero-area {
+    padding: 0 5%;
+}
+
+.hero-content {
+    width: 50%;
+    margin-top: 100px;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 50px;
+}
+
+.common-text {
+    font-size: 20px;
 }
