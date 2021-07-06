@@ -26,7 +26,7 @@ body {
 }
 
 .hero {
-    padding: 40px 0 60px;
+    padding: 40px 0 0;
 }
 
 .hero-area {
@@ -52,4 +52,45 @@ body {
 
 .common-text {
     font-size: 20px;
+}
+
+.about {
+    background-image: url('../images/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px 0;
+}
+
+.about-area {
+    padding: 0 5%;
+}
+
+.about-image {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.about-image-box {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-content h2 {
+    font-size: 30px;
+}
+
+.about-content {
+    margin-top: 100px;
+}
+
+
+.main-footer {
+    text-align: center;
+    background-image: linear-gradient(to right, #1010e6, rgb(243, 95, 9) 70%);
+    color: #fff;
+    padding: 10px 0;
 }
