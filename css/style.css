@@ -46,6 +46,33 @@ body {
     background-image: linear-gradient(to left, rgb(162, 47, 255), #1010e6);
 }
 
+.main-nav {
+    background-image: linear-gradient(to left, #1010e6, rgb(84, 185, 152));
+    padding: 10px 20px;
+}
+
+.main-nav-item {
+    list-style: none;
+    text-align: right;
+}
+
+.main-nav-items {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.items-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.main-nav-items:hover .items-link {
+    color: #c100f1;
+}
+
 .hero {
     padding: 40px 0 0;
 }
