@@ -84,7 +84,7 @@ body {
 }
 
 .about-content {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 
@@ -93,4 +93,25 @@ body {
     background-image: linear-gradient(to right, #1010e6, rgb(243, 95, 9) 70%);
     color: #fff;
     padding: 10px 0;
+}
+
+.counter {
+    margin-bottom: 60px;
+}
+
+.counter-area {
+    padding: 20px;
+    margin: 0 8%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.219);
+
+}
+
+.social-content div {
+    width: 100%;
+    text-align: center;
+}
+
+.social-count {
+    font-size: 35px;
 }
