@@ -108,14 +108,6 @@ body {
     margin-top: 200px;
 }
 
-
-.main-footer {
-    text-align: center;
-    background-image: linear-gradient(to right, #1010e6, rgb(243, 95, 9) 70%);
-    color: #fff;
-    padding: 10px 0;
-}
-
 .counter {
     margin-bottom: 60px;
 }
@@ -198,4 +190,11 @@ body {
 
 .menu-single-item:hover .foodItem {
     transform: scale(1.1);
+}
+
+.main-footer {
+    text-align: center;
+    background-image: linear-gradient(to right, #1010e6, rgb(84, 185, 152) 70%);
+    color: #fff;
+    padding: 10px 0;
 }
